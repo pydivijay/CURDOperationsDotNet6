@@ -52,12 +52,5 @@ namespace CURDOperations.Controllers
             var result = _employee.DeleteEmployee(id);
             return new JsonResult("Deleted Successfully");
         }
-
-        //[HttpGet]
-        //[Route("GetDepartment")]
-        //public async Task<IActionResult> GetAllDepartmentNames()
-        //{
-        //    return Ok(await _department.GetDepartment());
-        //}
     }
 }
